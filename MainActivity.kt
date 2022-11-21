@@ -20,8 +20,7 @@ class MainActivity : AppCompatActivity() {
         val etA = findViewById<EditText>(R.id.numA)
         val etB = findViewById<EditText>(R.id.numB)
         val tvSum = findViewById<TextView>(R.id.sum)
-
-        val scan = Scanner(System.`in`)
+        
         val strA = etA.text.toString()
         val strB = etB.text.toString()
 
